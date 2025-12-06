@@ -11,7 +11,37 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
+  char Estado;
+  char CodigoCarta[4];
+  char Cidade[50];
+  int Populacao;
+  float AreaKm2;
+  float PIB;
+  int NumPontosTuristicos;
+
   printf ("Desafio Super Trunfo - Países!\n");
+
+  printf ("Digite o Estado: \n");
+  scanf ("%s", &Estado);  
+
+  printf ("Digite o Código da Carta: \n");
+  scanf ("%s", CodigoCarta);
+
+  printf ("Digite o Nome da Cidade: \n");
+  scanf ("%s", Cidade);
+
+  printf ("População: \n");
+  scanf ("%s", Populacao);
+
+  printf ("Digite a Área em Km²: \n");
+  scanf ("%f", AreaKm2);
+
+  printf ("Digite PIB: \n");
+  scanf ("%f", PIB);
+
+
+
+
 
 return 0;
 } 
