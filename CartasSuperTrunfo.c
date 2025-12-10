@@ -16,14 +16,17 @@ int main() {
   int NumPontosTuristicos1;
 
   // VARIÁVEIS CARTA 2
+  char Estado2[3];
+  char CodigoCarta2[4];
+  char Cidade2[50];
+  int Populacao2;
+  float AreaKm2;
+  float PIB2;
+  int NumPontosTuristicos2;
 
-  // Área para entrada de dados
-
-  // Área para exibição dos dados da cidade
-
-  
-
-  printf ("Desafio Super Trunfo - Países!\n");
+  // Área para entrada de dados 
+  // INPUT CARTA 1
+  printf ("DESAFIO SUPER TRUNFO - NOVATO \n DADOS CARTA 1 \n");
 
   printf ("Digite o Estado: \n");
   scanf (" %2s", Estado1);  
@@ -46,7 +49,32 @@ int main() {
   printf ("Digite Quantos Pontos Turísticos tem: \n");
   scanf (" %d", &NumPontosTuristicos1);
 
-// RESPOSTAS CARTA 1
+  // INPUT CARTA 2
+  printf ("DESAFIO SUPER TRUNFO - NOVATO \n DADOS CARTA 2 \n");
+  
+  printf ("Digite o Estado: \n");
+  scanf (" %2s", Estado2);  
+
+  printf ("Digite o Código da Carta: \n");
+  scanf (" %3s", CodigoCarta2);
+
+  printf ("Digite o Nome da Cidade: \n");
+  scanf (" %49[^\n]", Cidade2);
+
+  printf ("População: \n");
+  scanf (" %d", &Populacao2);
+
+  printf ("Digite a Área em Km²: \n");
+  scanf (" %f", &AreaKm2);
+
+  printf ("Digite PIB: \n");
+  scanf (" %f", &PIB2);
+
+  printf ("Digite Quantos Pontos Turísticos tem: \n");
+  scanf (" %d", &NumPontosTuristicos2);
+
+  // Área para exibição dos dados da cidade
+  // CARTA 1
     printf("\n\n CARTA 1 \n");
     printf("Estado: %2s\n", Estado1);
     printf("Codigo: %s\n", CodigoCarta1);
@@ -56,6 +84,15 @@ int main() {
     printf("PIB: %.2f bilhoes\n", PIB1);
     printf("Pontos turisticos: %d\n", NumPontosTuristicos1);
 
+    // CARTA 1
+    printf("\n\n CARTA 2 \n");
+    printf("Estado: %2s\n", Estado2);
+    printf("Codigo: %s\n", CodigoCarta2);
+    printf("Cidade: %s\n", Cidade2);
+    printf("Populacao: %d\n", Populacao2);
+    printf("Area: %.2f km2\n", AreaKm2);
+    printf("PIB: %.2f bilhoes\n", PIB2);
+    printf("Pontos turisticos: %d\n", NumPontosTuristicos2);
 
 return 0;
 } 
