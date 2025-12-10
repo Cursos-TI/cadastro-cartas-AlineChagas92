@@ -51,7 +51,7 @@ int main() {
 
   // INPUT CARTA 2
   printf ("DESAFIO SUPER TRUNFO - NOVATO \n DADOS CARTA 2 \n");
-  
+
   printf ("Digite o Estado: \n");
   scanf (" %2s", Estado2);  
 
@@ -84,7 +84,7 @@ int main() {
     printf("PIB: %.2f bilhoes\n", PIB1);
     printf("Pontos turisticos: %d\n", NumPontosTuristicos1);
 
-    // CARTA 1
+    // CARTA 2
     printf("\n\n CARTA 2 \n");
     printf("Estado: %2s\n", Estado2);
     printf("Codigo: %s\n", CodigoCarta2);
